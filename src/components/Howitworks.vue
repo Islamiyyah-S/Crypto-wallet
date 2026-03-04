@@ -45,6 +45,7 @@
 <style scoped>
 .how {
   padding: 4em 5em;
+  background-color: #161616;
   /* background: #0e0e0e; */
 }
 

@@ -64,6 +64,7 @@
 </template>
 <style scoped>
 .Features{
+  background-color: #161616;
     color: white;
     padding: 4em 5em;
 }
