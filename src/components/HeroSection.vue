@@ -156,10 +156,11 @@ h2 {
    .hero {
     flex-direction: column;
     padding: 5rem 1.5rem 3rem;
-    min-height: fit-content;
+    /* height: 50px; */
+    min-height: 50px;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
   .hero-card {
     width: 100%;
