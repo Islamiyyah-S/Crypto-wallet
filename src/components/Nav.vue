@@ -69,15 +69,15 @@
           class="block text-gray-400 hover:text-[#e8b84b] py-2 text-sm"
           >Market</router-link
         >
-        <a
-          href="#"
+         <router-link
+          to="/about"
           class="block text-gray-400 hover:text-[#e8b84b] py-2 text-sm"
-          >About</a
+          >About</router-link
         >
-        <a
-          href="#"
+          <router-link
+          to="/features"
           class="block text-gray-400 hover:text-[#e8b84b] py-2 text-sm"
-          >Features</a
+          >Features</router-link
         >
         <a
           href="#"
