@@ -12,9 +12,6 @@
         <button class="btn-ghost">Learn More</button>
       </div>
     </div>
-    <div>
-
-    </div>
   </section>
 </template>
 
@@ -24,12 +21,11 @@
 .hero {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 6rem 4rem;
-  height: 100vh;
   background-image: url(../assets/hero-background.jpg);
   background-size: cover;
-  gap: 3rem;
+  background-position: center;
+  min-height: 100vh;
 }
 
 .hero-text {
@@ -94,7 +90,6 @@ h1 {
   color: #e8b84b;
 }
 
-/* CARD */
 .hero-card {
   background: #161616;
   border: 1px solid #2a2a2a;
@@ -157,11 +152,11 @@ h2 {
   color: #f87171;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
-  .hero {
+   .hero {
     flex-direction: column;
-    padding: 4rem 1.5rem;
+    padding: 5rem 1.5rem 3rem;
+    min-height: fit-content;
   }
   h1 {
     font-size: 2rem;

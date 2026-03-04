@@ -11,8 +11,8 @@ import Howitworks from '../components/Howitworks.vue';
 
 <template>
 <Herosection/>
-<About/>
-<Features/>
+<About id ='about'/>
+<Features id = 'features'/>
 <Howitworks/>
 
 </template>

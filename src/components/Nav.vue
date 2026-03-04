@@ -33,11 +33,15 @@
               class="text-gray-400 hover:text-[#e8b84b] text-sm"
               >Market</router-link
             >
-            <a href="#" class="text-gray-400 hover:text-[#e8b84b] text-sm"
-              >About</a
+             <router-link
+              to="/about"
+              class="text-gray-400 hover:text-[#e8b84b] text-sm"
+              >About</router-link
             >
-            <a href="#" class="text-gray-400 hover:text-[#e8b84b] text-sm"
-              >Features</a
+             <router-link
+              to="/features"
+              class="text-gray-400 hover:text-[#e8b84b] text-sm"
+              >Features</router-link
             >
             <a href="#" class="text-gray-400 hover:text-[#e8b84b] text-sm"
               >How it Works</a

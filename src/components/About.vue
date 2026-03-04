@@ -118,6 +118,7 @@ h2 {
   }
 
   .about-image {
+    display: none;
     width: 100%;
   }
 
